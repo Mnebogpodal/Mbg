@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	var (
+		x = 3
+		y = 5
+	)
+	y = y + x
+	x = y - x
+	y = y - x
+
+	fmt.Println(x, y)
+}
